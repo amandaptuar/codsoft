@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+  
+}
+
+.child{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    position: relative;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+      border-radius: 25px;
+
+    
+}
+
+.user_input{
+    height: 90px;
+    width: 500px;
+    border: 1px solid black;
+    margin-left: 50px;
+    position: relative;
+    top: 50px;
+    border-radius: 15px;
+    font-size: xx-large;
+    background-color: grey;
+    color: black;
+    font-size: 60px;
+}
+
+.user_valuebtns{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    overflow: hidden;
+
+
+}
+
+.btn{
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+    font-size: xx-large;
+        border-radius: 10px;
+    background-color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.btns_input{
+  height: 400px;
+  width: 380px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.operators{
+    height: 400px;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 60px;
+
+}
+.case1{
+     height: 400px;
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.case2{
+     height: 400px;
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.add{
+         height: 70px;
+    width: 70px;
+    margin: 15px;
+    font-size: xx-large;
+        border-radius: 10px;
+    background-color: white;
+       font-size: 60px;
+    font-weight: 600;
+}
+
+.subtract{
+            height: 70px;
+    width: 70px;
+    margin: 15px;
+    font-size: xx-large;
+        border-radius: 10px;
+    background-color: white;
+       font-size: 60px;
+    font-weight: 600;
+}
+
+.equals{
+             height: 70px;
+    width: 70px;
+    margin: 15px;
+    font-size: xx-large;
+        border-radius: 10px;
+    background-color: white;
+       font-size: 60px;
+    font-weight: 600;
+}
+.clear{
+          height: 70px;
+    width: 70px;
+    margin: 15px;
+    font-size: xx-large;
+        border-radius: 10px;
+    background-color: white;
+       font-size: 60px;
+    font-weight: 600;
+}
+
+.multiply{
+             height: 70px;
+    width: 70px;
+    margin: 15px;
+    font-size: xx-large;
+        border-radius: 10px;
+    background-color: white;
+       font-size: 60px;
+    font-weight: 600;
+}
+
+.divide{  
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+    font-size: xx-large;
+        border-radius: 10px;
+    background-color: white;
+       font-size: 60px;
+    font-weight: 600;
+}
