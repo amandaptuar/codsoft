@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 80px;
+    width: 100vw;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.about{
+    height: 400px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.src{
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+}
+
+.aboputsection{
+    font-size: xx-large;
+    font-weight: 600;
+      position: relative;
+    top: 100px;
+}
+
+.skillssection{
+    height: 200px;
+    width: 100vw;
+    border: 1px solid black ;
+    padding-left: 70px;
+}
+.section{
+    font-size: xxx-large;
+    font-weight: 600;
+
+}
+.skill{
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projectssection{
+        height: 200px;
+    width: 100vw;
+    border: 1px solid black ;
+    padding-left: 70px;
+}
+
+.projectsec{
+       font-size: xxx-large;
+    font-weight: 600;
+}
+
+.projectsmade{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project{
+        height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.resumesection{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    border: 1px solid black;
+}
+
+.resume{
+           font-size: xxx-large;
+    font-weight: 600;
+}
+
+.resumelink{
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.contactsection{
+       height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+.contact{
+          font-size: xxx-large;
+    font-weight: 600;
+}
+
+.email{
+     margin-top: 10px;
+  font-size: larger;
+}
+.footer{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    padding-top: 30px;
+}
